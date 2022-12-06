@@ -36,16 +36,11 @@ export default class HomeScreen extends Component {
           <TouchableOpacity style={styles.routeCard}>
             <Text style={styles.routeText}>Meteors</Text>
             <Text style={styles.knowMore}>{'Know More --->'}</Text>
-            <Image
-              source={require('../assets/meteor_icon.png')}
-              style={styles.iconImage}></Image>
           </TouchableOpacity>
+
           <TouchableOpacity style={styles.routeCard}>
             <Text style={styles.routeText}>Updates</Text>
             <Text style={styles.knowMore}>{'Know More --->'}</Text>
-            <Image
-              source={require('../assets/rocket_icon.png')}
-              style={styles.iconImage}></Image>
           </TouchableOpacity>
         </ImageBackground>
       </View>
